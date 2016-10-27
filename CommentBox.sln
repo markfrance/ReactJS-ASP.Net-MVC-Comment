@@ -1,0 +1,33 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{303B672E-8506-472A-80B3-B816429A27C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96736C77-85D7-4DBE-A97D-302F51E14B9F}"
+	ProjectSection(SolutionItems) = preProject
+GCop.json = GCop.json
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CommentBox", "src\CommentBox\CommentBox.xproj", "{6CE04134-6E98-4FCA-B33D-396D18C58C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE04134-6E98-4FCA-B33D-396D18C58C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE04134-6E98-4FCA-B33D-396D18C58C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE04134-6E98-4FCA-B33D-396D18C58C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE04134-6E98-4FCA-B33D-396D18C58C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CE04134-6E98-4FCA-B33D-396D18C58C65} = {303B672E-8506-472A-80B3-B816429A27C6}
+	EndGlobalSection
+EndGlobal
